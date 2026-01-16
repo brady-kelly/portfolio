@@ -11,6 +11,7 @@ import {
     Lightbulb,
     Download,
 } from "lucide-react";
+import { DownloadCV } from "@/components/downLoad-cv";
 import { SkillsContent } from "@/components/cv-info/skills";
 import { skillCategories, skillsTools } from "@/data/skills";
 import { SkillCategory } from "@/lib/json/types";
