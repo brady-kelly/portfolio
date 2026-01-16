@@ -1,4 +1,4 @@
-import { EducationContent } from "@/components/content/education";
+import { EducationContent } from "@/components/cv-info/education";
 import { additionalEducation, education } from "@/data/education";
 import { Education } from "@/lib/json/reactive";
 

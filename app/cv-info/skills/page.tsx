@@ -12,7 +12,7 @@ import {
     Download,
 } from "lucide-react";
 import { DownloadCV } from "@/components/downLoadCv";
-import { SkillsContent } from "@/components/content/skills";
+import { SkillsContent } from "@/components/cv-info/skills";
 import { skillCategories, skillsTools } from "@/data/skills";
 import { SkillCategory } from "@/lib/json/types";
 

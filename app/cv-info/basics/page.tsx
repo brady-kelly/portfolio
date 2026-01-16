@@ -1,4 +1,4 @@
-import { BasicDetails } from "@/components/content/basicDetails";
+import { BasicDetails } from "@/components/cv-info/basicDetails";
 import { cvPath, readCvFromJsonFile } from "@/lib/json/file";
 import { Basics, CvRoot } from "@/lib/json/reactive";
 import { getInitials } from "@/lib/utils";

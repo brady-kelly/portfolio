@@ -52,6 +52,9 @@
         "SQL Server",
         "Windows Forms"
       ],
+      "highlights": [
+        "Reducsing the size of a Git repo that had grown to over 15GB due to the erroneous inclusion of a high number of large binary files"
+      ],
       "reasonForLeaving": "Career advancement opportunity"
     },
     {
@@ -63,9 +66,7 @@
       "startDate": "2015-08",
       "endDate": "2016-03",
       "summary": "Engaged as a software engineer. Tasks included:\n - Maintenance tasks on a large CRM system developed by Marvel, UK\n - Technologies used included ASP.NET Web Forms, JavaScript, HTML, and CSS for design.",
-      "highlights": [
-        ""
-      ]
+      "highlights": [""]
     },
     {
       "company": "Applogix",
@@ -76,9 +77,7 @@
       "startDate": "2015-05",
       "endDate": "2015-06",
       "summary": "Engaged as a freelance software engineer I was tasked with the following:\n - Work on a small, cross-platform system for life assurance quotations on mobile devices\n - Technologies used were JavaScript, Angular, and HTML.",
-      "highlights": [
-        ""
-      ]
+      "highlights": [""]
     },
     {
       "company": "Self Employed",
@@ -89,9 +88,7 @@
       "startDate": "2014-07",
       "endDate": "2015-03",
       "summary": "I was engaged as a software engineer in various projects. A highlight was:\n - I developed an advanced information transfer system that gathered messages from a mobile capture service called Canvas and converted them into inputs for a web API for Private Property. This allowed real estate listings captured on Canvas to be integrated into Private Property's Property Search service.\n - Technologies I used included a Windows Service written in C#, a WCF service for message retrieval, and a complex mapping system to adapt message content for the Private Property web API.",
-      "highlights": [
-        ""
-      ]
+      "highlights": [""]
     }
   ],
   "volunteer": [
@@ -102,9 +99,7 @@
       "startDate": "",
       "endDate": "",
       "summary": "",
-      "highlights": [
-        ""
-      ]
+      "highlights": [""]
     }
   ],
   "education": [
@@ -115,12 +110,7 @@
       "startDate": "1994-04",
       "endDate": "1997-11",
       "gpa": "",
-      "courses": [
-        "Computer Science",
-        "Databases",
-        "Information Systems",
-        ""
-      ]
+      "courses": ["Computer Science", "Databases", "Information Systems", ""]
     }
   ],
   "awards": [
@@ -188,19 +178,11 @@
   "interests": [
     {
       "name": "Electronics",
-      "keywords": [
-        "Circuits",
-        "Chips",
-        "Transistor"
-      ]
+      "keywords": ["Circuits", "Chips", "Transistor"]
     },
     {
       "name": "Philosophy",
-      "keywords": [
-        "Stoicism",
-        "Nietzsche",
-        "Plato"
-      ]
+      "keywords": ["Stoicism", "Nietzsche", "Plato"]
     },
     {
       "name": "Automation",
@@ -237,9 +219,7 @@
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
       "description": "Description...",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
+      "highlights": ["Won award at AIHacks 2016"],
       "url": ""
     }
   ],

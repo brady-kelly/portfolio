@@ -11,7 +11,7 @@ export const cvSections = [
   {
     title: "Work Experience",
     description: "Professional career history and achievements",
-    href: "/cv-info/work-experience",
+    href: "/cv-info/experience",
     icon: Briefcase,
     color: "bg-emerald-50 hover:bg-emerald-100",
   },
