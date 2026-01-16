@@ -78,12 +78,12 @@ export interface AdditionalEducation {
   type: string;
 }
 
-export interface Interest {
+export interface InterestEx {
   name: string;
   keywords: string[];
 }
 
-export interface Language {
+export interface LanguageEx {
   language: string;
   fluency: string;
 }
