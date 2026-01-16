@@ -29,7 +29,7 @@ export function BasicDetails({ cvBasics, initials }: BasicDetailsProps) {
                     <Card className="border-slate-200">
                         <CardContent className="p-6 text-center">
                             {/* Profile Photo Placeholder */}
-                            <div className="w-32 h-32 bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-full mx-auto mb-6 flex items-center justify-center">
+                            <div className="w-32 h-32 bg-linear-to-br from-emerald-400 to-emerald-600 rounded-full mx-auto mb-6 flex items-center justify-center">
                                 <span className="text-4xl font-bold text-white">{initials}</span>
                             </div>
 

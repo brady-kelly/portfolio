@@ -1,7 +1,10 @@
 "use client";
 
-import { GraduationCap } from "lucide-react";
+import { Calendar, GraduationCap } from "lucide-react";
 import { AdditionalEducation, Education } from "@/lib/json/reactive";
+import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
+import Link from "next/link";
+import { Badge } from "../ui/badge";
 
 export interface EducationProps {
     primary: Education[];
@@ -29,7 +32,7 @@ export function EducationContent({ primary, additional }: EducationProps) {
                 </h2>
 
                 <div className="space-y-8">
-                    {education.map((edu, index) => (
+                    {primary.map((edu, index) => (
                         <Card
                             key={index}
                             className="border-slate-200 hover:shadow-md transition-shadow"
@@ -41,7 +44,7 @@ export function EducationContent({ primary, additional }: EducationProps) {
                                             Diploma Datametrics in {edu.area}
                                         </CardTitle>
                                         <Link
-                                            href={edu.url}
+                                            href={edu.url ?? "#"}
                                             target="_blank"
                                             rel="noopener noreferrer"
                                         >
@@ -101,7 +104,7 @@ export function EducationContent({ primary, additional }: EducationProps) {
                     Continuing Education
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                    {additionalEducation.map((course, index) => (
+                    {additional.map((course, index) => (
                         <Card
                             key={index}
                             className="border-slate-200 hover:shadow-md transition-shadow"

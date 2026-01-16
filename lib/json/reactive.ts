@@ -6,9 +6,9 @@ export interface CvRoot {
   education: Education[];
   awards: Award[];
   publications: Publication[];
-  skills: Skill[];
-  languages: Language[];
-  interests: Interest[];
+  skills: SkillEx[];
+  languages: LanguageEx[];
+  interests: InterestEx[];
   references: Reference[];
   projects: Project[];
   meta: Meta;
@@ -67,7 +67,7 @@ export interface Education {
   url?: string;
   area?: string;
   startDate: string;
-  endDate?: string;
+  endDate: string;
   courses: string[];
 }
 
@@ -125,7 +125,7 @@ export interface Reference {
   type?: string;
 }
 
-export interface Skill {
+export interface SkillEx {
   name: string;
   level: string;
   keywords: string[];

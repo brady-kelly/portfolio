@@ -9,7 +9,6 @@ export interface InterestsSectionProps {
     interests: Interest[];
 }
 
-
 function getIconElement(iconName?: string): ReactNode {
     switch (iconName?.toLowerCase()) {
         case "globe":
